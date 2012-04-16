@@ -1,0 +1,64 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Lol_Starter.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WowPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="RealmList" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;set realmlist LandOfLegends.de&lt;/string&gt;
+  &lt;string&gt;set realmlist server2.landoflegends.de:3850&lt;/string&gt;
+  &lt;string&gt;set realmlist 89.163.172.253:3800&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="RealmName" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Land Of Legends 3.3.5a&lt;/string&gt;
+  &lt;string&gt;Land Of Legends DEV&lt;/string&gt;
+  &lt;string&gt;Land Of Legends Vanilla&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="WDBDelete" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WTFDelete" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="StarterClose" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PlayRadioOnStart" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="RadioPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://matrix-webdesigner.de/stream-box/playlist.php?s=89.163.172.250&amp;p=8700&amp;t=asx</Value>
+    </Setting>
+    <Setting Name="RadioVolume" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="VoteReminding" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="BrowserActiv" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NewsEntrysCount" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="AllianceGuildName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Meine Allianz Gilde</Value>
+    </Setting>
+    <Setting Name="AllianceGuildLink" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.landoflegends.de/viewforum.php?f=64</Value>
+    </Setting>
+    <Setting Name="HordeGuildName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Meine Horde Gilde</Value>
+    </Setting>
+    <Setting Name="HordeGuildLink" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.landoflegends.de/viewforum.php?f=64</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

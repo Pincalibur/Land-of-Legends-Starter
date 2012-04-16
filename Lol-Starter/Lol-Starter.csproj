@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{913667D5-FD43-48D7-BA70-54FF0996E649}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lol_Starter</RootNamespace>
+    <AssemblyName>Lol-Starter</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Lol.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A1CA1EA49AA9AC2C82D98BEC957FDE3F28DE2314</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Lol-Starter_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPopUp.Designer.cs">
+      <DependentUpon>FormPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewsFeedEntry.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RealmLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UC\UCArsenal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCArsenal.Designer.cs">
+      <DependentUpon>UCArsenal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCBottom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCBottom.Designer.cs">
+      <DependentUpon>UCBottom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCGuildConfig.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCGuildConfig.Designer.cs">
+      <DependentUpon>UCGuildConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCMenu.Designer.cs">
+      <DependentUpon>UCMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCNews.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCNews.Designer.cs">
+      <DependentUpon>UCNews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCNewsFeed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCNewsFeed.Designer.cs">
+      <DependentUpon>UCNewsFeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCRealmAdd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCRealmAdd.Designer.cs">
+      <DependentUpon>UCRealmAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCRealmEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCRealmEdit.Designer.cs">
+      <DependentUpon>UCRealmEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCRealmlist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCRealmlist.Designer.cs">
+      <DependentUpon>UCRealmlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCTitle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCTitle.Designer.cs">
+      <DependentUpon>UCTitle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCToolConfig.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCToolConfig.Designer.cs">
+      <DependentUpon>UCToolConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCVote.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCVote.Designer.cs">
+      <DependentUpon>UCVote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilitys.cs" />
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPopUp.resx">
+      <DependentUpon>FormPopUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UC\UCArsenal.resx">
+      <DependentUpon>UCArsenal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCBottom.resx">
+      <DependentUpon>UCBottom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCGuildConfig.resx">
+      <DependentUpon>UCGuildConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCMenu.resx">
+      <DependentUpon>UCMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCNews.resx">
+      <DependentUpon>UCNews.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCNewsFeed.resx">
+      <DependentUpon>UCNewsFeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCRealmAdd.resx">
+      <DependentUpon>UCRealmAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCRealmEdit.resx">
+      <DependentUpon>UCRealmEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCRealmlist.resx">
+      <DependentUpon>UCRealmlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCTitle.resx">
+      <DependentUpon>UCTitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCToolConfig.resx">
+      <DependentUpon>UCToolConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCVote.resx">
+      <DependentUpon>UCVote.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Lol-Starter_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\texture_pergament.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closeButtonHighlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lol_header_animiert.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lol_header_animiert2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\texture_pergament_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wowstart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Lol.ico" />
+    <None Include="Resources\btnConfigx24.jpg" />
+    <None Include="Resources\btnAllianceGuild.gif" />
+    <None Include="Resources\btnHordeGuild.gif" />
+    <None Include="Resources\btnExtLink.png" />
+    <None Include="Resources\btnAdd.png" />
+    <None Include="Resources\btnEdit.png" />
+    <None Include="Resources\minimizeButton.png" />
+    <None Include="Resources\closeButton.png" />
+    <None Include="Resources\u.png" />
+    <None Include="Resources\t.png" />
+    <None Include="Resources\s.png" />
+    <None Include="Resources\r.png" />
+    <None Include="Resources\q.png" />
+    <None Include="Resources\p.png" />
+    <None Include="Resources\o.png" />
+    <None Include="Resources\n.png" />
+    <None Include="Resources\m.png" />
+    <None Include="Resources\z.png" />
+    <None Include="Resources\y.png" />
+    <None Include="Resources\x.png" />
+    <None Include="Resources\w.png" />
+    <None Include="Resources\v.png" />
+    <None Include="Resources\l.png" />
+    <None Include="Resources\k.png" />
+    <None Include="Resources\j.png" />
+    <None Include="Resources\i.png" />
+    <None Include="Resources\h.png" />
+    <None Include="Resources\g.png" />
+    <None Include="Resources\f.png" />
+    <None Include="Resources\e.png" />
+    <None Include="Resources\d.png" />
+    <None Include="Resources\c.png" />
+    <None Include="Resources\b.png" />
+    <None Include="Resources\a.png" />
+    <None Include="Resources\lol_bote_banner1.png" />
+    <None Include="Resources\lol_bg_serverstatus_left.png" />
+    <None Include="Resources\lol_bote_banner.png" />
+    <None Include="Resources\lol_bg_serverstatus.png" />
+    <None Include="Resources\diamant16.png" />
+    <None Include="Resources\btnConfigReset.png" />
+    <None Include="Resources\menubtnVote.png" />
+    <None Include="Resources\icon_online.png" />
+    <None Include="Resources\icon_offline.png" />
+    <None Include="Resources\btnMinimize.png" />
+    <None Include="Resources\btnClose.png" />
+    <None Include="Resources\lol_bg_light.png" />
+    <None Include="Resources\lol_bg.png" />
+    <None Include="Resources\btnConfig.png" />
+    <None Include="Resources\menubtnGames.png" />
+    <None Include="Resources\menubtnArsenal.png" />
+    <None Include="Resources\vote4.gif" />
+    <None Include="Resources\vote3.png" />
+    <None Include="Resources\menubtnRadio.png" />
+    <None Include="Resources\menubtnHelp.png" />
+    <None Include="Resources\menubtnBugReport.png" />
+    <None Include="Resources\menubtnAccount.png" />
+    <None Include="Resources\btnExport.png" />
+    <None Include="Resources\btnUpdate.png" />
+    <None Include="Resources\btnWoWPath.png" />
+    <None Include="Resources\vote.gif" />
+    <None Include="Resources\vote2.png" />
+    <None Include="Resources\steama0a8132cpng.png" />
+    <None Include="Resources\gprofilebutton64.png" />
+    <None Include="Resources\buttontwitterlol.png" />
+    <None Include="Resources\facebookbuttonlol.png" />
+    <None Include="Resources\btnOK.png" />
+    <None Include="Resources\btnDelete.png" />
+    <None Include="Resources\btnCancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

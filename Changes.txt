@@ -1,0 +1,88 @@
+[attachment=0]screen.png[/attachment]
+[quote]LoL Starter v1.3.1 [url=http://www.landoflegends.de/download/file.php?id=5528]DOWNLOAD[/url]
+Bisher umgesetzt:
+[list][b]Stand (5.4.2012 16:00)[/b]
+Alte Realmlist einpflegen
+Neue Realmlist bearbeiten / Realms löschen
+WDB / WTF Ordner löschen
+WoW mit gewähltem Realm starten
+Realmlist.wtf enthält nur noch den letzten gewählten Eintrag
+[b]Stand (5.4.2012 19:33)[/b]
+Einige Tiles sollten sich jetzt nicht mehr wiederholen.
+Bilder sollten schneller geladen werden.
+Links im Menü testweise 2 Links, die 4 SN Seiten und 2 Voting-Seiten eingebunden.
+[b]Stand (5.4.2012 20:26)[/b]
+Beim eintragen von Realmlists genügt es nur die Adresse anzugeben, der Rest wird jetzt ignoriert und vom Programm gesetzt.
+Server Adressen werden angepingt um Vertippen vorzubeugen.
+Im Menü gibt es jetzt den Punkt "Fehler im Spiel melden"
+Bei einigen Nutzern scheint es ein Merkwürdiges Resize zu geben, das das komplette Layout verwurstet. Bisher keine Lösung
+Ich habe Darkman angeschrieben um nach einer Möglichkeit des Auslesens der Forenbeiträge zu fragen.
+Die Gestaltung soll ähnlich der Portalseite (Mitte) sein:
+Aktuelle Themen + Letzter Lol Bote (aufgeklappt) + letzte Bekanntmachung
+[b]Stand (5.4.2012 22:14)[/b]
+Option um das Tool bei WoW Start zu schließen
+Es werden jetzt alle existierenden realmlist.wtf ersetzt (selbst wenn man sein Sprachpaket geändert hat)
+Es gibt jetzt eine Konfig im News Panel, dort gibt es bisher folgene Einstellungsmöglichkeiten:
+Pfad zu WoW ändern
+Update suchen(Link zu diesem Thread)
+Realmlist exportieren (wie gewohnt als realmlist.wtf)
+Versionsinfo
+[b]Stand (5.4.2012 23:54)[/b]
+Webbrowser
+Webbrowser startet automatisch beim Newsfeed
+Lol-Radio
+Radio merkt sich seinen Zustand beim letzten Aufruf (Für Radio Liebhaber bleibts an, für die die es nervt bleibt es aus!)
+[b] Stand (6.4.2012 03:18)[/b]
+Buttons geändert (Menü durch Buttons ersetzt + alte mit neuem Font)
+Fehler werden jetzt vorm Beenden ausgegeben.
+[b] Stand (6.4.2012 15:40)[/b]
+Lol-Radio URL deaktiviert, da die Datei offensichtlich sonst nicht gefunden wird.
+(klappt merkwürdigerweise bisher nur bei mir.)
+[b]Stand (6.4.2012 16:48)[/b]
+Lol-Radio URL wieder aktiviert
+Beim wählen des WoW Pfades wird die Prüfschleife jetzt bei "Abbrechen" verlassen
+Die x.WMP.dlls sind enthalten.
+[b]Stand (6.4.2012 23:33)[/b]
+Alle Votebanner reingenommen
+Radio autostart ist raus, dafür wird der letzte Status gespeichert
+Radio hat nen Lautstärkeregeler (wird ebenfalls gespeichert)
+man kann sich jetzt, wenn man unbedingt will, ein anderen Radio einstellen (in der Config per Hand ändern unter RadioPath)
+Ein Link zum Arsenal ist drinne, man kann auch einen Namen mitgeben.
+Das Menü und allgemein die Bilder wurden etwas umgestaltet
+es gibt jetzt eine verlinkung zu unseren anderen LoL-Games
+Die Spieleranzahl vom Vanilla und Wotlk werden jetzt angezeigt.
+Die Spieleranzahl wird alle 5 Minuten erneuert.
+Ich habe außerdem einige Bilder zu Tilesets geändert, sodass die exe nun wesentlich schneller laufen sollte und weniger speicher benötigt.
+Radio speichert jetzt auch pausieren.
+Menü etwas entlastet.
+[b]Stand (07.04.2012 03:03)[/b]
+Vote Buttons werden jetzt als ausstellbarer Popup beim Programmstart gezeigt.
+Im Menü findet sich eine Schaltfläche zum Voten, falls man doch mal Voten möchte.
+In den Optionen befindet sich jetzt eine Option um den Browser auszustellen.(erfordert neustart)
+Außerdem kann die Konfiguration auf Standard gesetzt werden, wenn man das möchte. (erfordert ebenfalls neustart).
+Jeder Realm hat jetzt eine Onlineabfrage, die jede Minute aktualisiert wird.
+(Dabei wird nur der Server abgefragt, keine Ports)
+[b]Stand (07.04.2012 14:25)[/b]
+Standardkonfiguration Realms angepasst
+Slim Browser eingebaut (einige Bilder fehlen noch, aber er tut schon seinen Job)
+[b]Stand (10.04.2012 00:59)[/b]
+den neuen NewsFeed mit Bildern gefüttert (das war ein Akt -.-'')
+In der Config kann man nun die Anzahl der News, die angezeigt werden sollen, einstellen
+Minimier Button! xD (kA warum ich den nicht gleich mit rangebaut habe)
+[b]Stand (10.04.2012 13:27)[/b]
+Realmlist wird nun durch den Stift links neben dem Eintrag bearbeitet. (dort wird auch gelöscht)
+Die Realmlistanzeige ist vergrößert
+Realmlist einträge können jetzt durch das grüne Plus symbol hinzugefügt werden.
+[b]Stand (10.04.2012 14:26)[/b]
+Button zum RealmList adden in das dazugehörige Kästchen verschoben
+Im Newsfeed gibt es jetzt einen Button der zum Portal leitet
+WoW Start Optionen haben jetzt auch ein Kästchen
+[b]Stand (10.04.2012 16:50)[/b]
+Spieleranzahl online verschoben
+Meine Gilde-panel ins Menü eingefügt
+Kann über die Stifte bearbeitet werden
+Der RealmAddButton sollte wieder funktionieren
+[b]Stand (10.04.2012 20:46 v1.3.1)[/b]
+Die Edit-Button bei der Realmlist greifen jetzt richtig
+Der AddRealmlist Button verschwindet nicht, wenn man einen neuen realm added.
+[/list][/quote]
